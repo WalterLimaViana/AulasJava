@@ -44,11 +44,12 @@ public class Main {
 //            System.out.println(i);
 //        }
 // Criando uma tabuada utilizando o laço for
-        for(int i = 1; i<= 10;i++){
-            for(int j = 1; j<= 10;j++){
-                System.out.println(j + " x " + i + " = " + j * i);
-            }
-        }
+//        for(int i = 1; i<= 10;i++){
+//            for(int j = 1; j<= 10;j++){
+//                System.out.println(j + " x " + i + " = " + j * i);
+//            }
+//        }
+        // Vetores
 
 
 
