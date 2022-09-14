@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         // Operadores booleanos e estrturas condicionais
@@ -50,6 +52,47 @@ public class Main {
 //            }
 //        }
         // Vetores
+
+//        int [] numeros = new int[5];
+//        numeros[0]= 1;
+//        numeros[1]= 2;
+//        numeros[2]= 3;
+//        numeros[3]= 4;
+//        numeros[4]= 5;
+//
+//        for (int i = 0;i < numeros.length; i++){
+//            System.out.println(numeros[i]);
+//        }
+        // Outras formas de montar e exibir os vetores
+//        String[] letras = {"A", "B", "D", "J", "H"};
+//
+//        for (int i = 0;i < letras.length; i++){
+//            System.out.println(letras[i]);
+//        }
+//
+//        System.out.println(Arrays.toString(letras));
+
+        //Exibindo o maior,menor e a média:
+        int[] numeros = {4,5,42,7,87};
+        int maior = numeros[0];
+        int menor = numeros[0];
+        int media = 0;
+
+        for (int i = 0; i < numeros.length; i++){
+            if (numeros[i] > maior){
+                maior = numeros[i];
+            }
+            if (numeros[i] < menor){
+                menor = numeros[i];
+            }
+            media +=numeros[i];
+        }
+
+        System.out.println("Maior: "+ maior);
+        System.out.println("Menor: "+ menor);
+        System.out.println("Media: "+ media/ numeros.length);
+
+
 
 
 
