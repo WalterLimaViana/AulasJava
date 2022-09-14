@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+        // Operadores booleanos e estrturas condicionais
 //        String nome = "Walter";
 //        System.out.println("Hello " + nome);
 //        boolean fimDeSemana = true;
 //        boolean fazendoSol = true;
+
 
 //        int nota = 55;
 //        String graduacao;
@@ -36,6 +38,18 @@ public class Main {
 //            default:
 //                System.out.println("Nota inválida");
 //        }
+//  Laços numéricos
+
+//        for(int i = 1; i<= 10;i++){
+//            System.out.println(i);
+//        }
+// Criando uma tabuada utilizando o laço for
+        for(int i = 1; i<= 10;i++){
+            for(int j = 1; j<= 10;j++){
+                System.out.println(j + " x " + i + " = " + j * i);
+            }
+        }
+
 
 
     }
